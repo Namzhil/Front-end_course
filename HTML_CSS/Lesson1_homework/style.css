@@ -1,0 +1,451 @@
+.container {
+    width: 1280px;
+    min-height: 100%;
+    margin: 0 auto;
+}
+
+header {
+    width: 1280px;
+    height: 323px;
+    background-color: #445161;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-h {
+    margin: 30px 0 0 50px;
+    height: 44px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.header-list {
+    margin: 50px 0 0 15px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.header-list li {
+    list-style: none;
+    background: url(img/check_icon.png) no-repeat 0 8px;
+    padding-left: 32px;
+}
+
+.header-right {
+    margin: 50px;
+    width: 469px;
+    height: 214px;
+    background-color: #ffffff;
+    float: right;
+}
+
+
+.clrfix {
+    clear: both;
+}
+
+
+.about-product {
+    background-color: #ffffff;
+    height: 347px;
+}
+
+.about-product-text {
+    margin: 50px 0 0 50px;
+
+    float: left;
+}
+
+.about-product h2 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    width: 254px;
+    height: 28px;
+    color: #445161;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.about-product p {
+    margin-top: 20px;
+    width: 653px;
+    height: 60px;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.about-product-video {
+    margin: 50px;
+    width: 430px;
+    height: 245px;
+    background-color: #445161;
+    float: right;
+}
+
+
+.dignity-product {
+    height: 419px;
+    background-color: #f5f5f5;
+}
+
+.dignity-product h2 {
+    margin: 0;
+    padding: 50px 0 20px;
+    text-align: center;
+    color: #445161;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.dignity-list li {
+    margin-bottom: 35px;
+    list-style: none;
+    background: url(img/2-layers.png) no-repeat 0 5px;
+    padding-left: 40px;
+    width: 550px;
+    height: 63px;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.dignity-list-left {
+    float: left;
+}
+
+.dignity-list-right {
+    float: left;
+}
+
+
+.screenshots {
+    height: 487px;
+    background-color: #ffffff;
+}
+
+.screenshots h2 {
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #445161;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.article-pic {
+    float: left;
+    width: 200px;
+    height: 150px;
+    background-color: #445161;
+}
+
+.article-text {
+    float: left;
+    width: 360px;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+.reviews {
+    height: 425px;
+    background-color: #f5f5f5;
+}
+
+.reviews h2 {
+    padding: 50px 0 20px;
+    text-align: center;
+    color: #445161;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.avatar {
+    margin: 0 10px 0 50px;
+    float: left;
+    width: 75px;
+    height: 75px;
+    background: url(img/userpic.png);
+}
+
+.comment {
+    float: left;
+    width: 460px;
+    height: 121px;
+    background: url(img/bg_review.png) no-repeat;
+    padding: 10px 0 20px 25px;
+    
+}
+
+.comment p {
+    margin: 0 0 20px;
+    padding: 0;
+}
+
+.comment-text {
+    width: 436px;
+    height: 64px;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.signature {
+    color: #989898;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+
+.buy-it {
+    height: 656px;
+    background-color: #ffffff;
+}
+
+.buy-it h2 {
+    text-align: center;
+    padding: 0;
+    margin: 50px 0 0 0;
+    color: #445161;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.tariff-wrapper {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tariff {
+    width: 300px;
+    margin: 30px 25px 0 25px;
+    background-color: #445161;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.tariff h3 {
+    margin: 10px 0 10px;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.price-wrapper {
+    height: 70px;
+    background-color: #ffffff;
+    text-align: center;
+    border: 1px solid #445162;
+}
+
+.price {
+    margin: 21px 0 0;
+    color: #445162;
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.tariff-list {
+    list-style: none;
+    margin-left: 20px;
+    padding: 0;
+    text-align: left;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.tariff button {
+    width: 260px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border-style: none;
+    margin: 0 0 20px;
+    color: #445161;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+
+.contacts {
+    height: 507px;
+    background-color: #445161;
+}
+
+.contacts h2 {
+    margin: 0;
+    padding: 50px 0 0;
+    text-align: center;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 0 250px;
+    float:left;
+}
+
+.name, .email {
+    width: 500px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border-style: none;
+    margin-bottom: 20px;
+}
+
+.name::placeholder, 
+.email::placeholder {
+    padding-left: 5px;
+    color: #445162;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.description::placeholder {
+    padding-left: 5px;
+    color: #445162;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.description {
+    width: 500px;
+    height: 170px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border-style: none;
+    margin-bottom: 20px;
+    resize: none;
+}
+
+.send {
+    width: 140px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border-style: none;
+    text-transform: uppercase;
+    color: #445162;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0 auto;
+}
+
+.icons-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 0 40px;
+    float: left;
+}
+
+.contact-icons {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-icons li {
+    list-style: none;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.contact-icons li:first-child {
+    background: url(img/skype_icon.png) no-repeat 0 0;
+    padding-left: 30px;
+}
+
+.contact-icons li:nth-child(2) {
+    background: url(img/icq_icon.png) no-repeat 0 2px;
+    padding-left: 30px;
+}
+
+.contact-icons li:nth-child(3) {
+    background: url(img/email_icon.png) no-repeat 2px 5px;
+    padding-left: 30px;
+}
+
+.contact-icons li:nth-child(4) {
+    background: url(img/phone_icon.png) no-repeat 1px 1px;
+    padding-left: 30px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.copyright {
+    height: 26px;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    background-color:  #f5f5f5;
+}
+
+.copyright p {
+    margin: 0;
+    padding: 7px;
+    text-align: center;
+    color: #445162;
+}
