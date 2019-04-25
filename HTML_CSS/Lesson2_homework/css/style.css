@@ -1,0 +1,518 @@
+.container {
+    max-width: 1366px;
+    min-width: 320px;
+    min-height: 100%;
+    margin: 0 auto;
+}
+
+html, body {
+    min-height: 100%;
+}
+
+@media (min-width: 540px) {
+    header,
+    .container > section {
+        padding: 50px;
+    }
+}
+
+@media (max-width: 540px) {
+    header,
+    .container > section {
+        padding: 30px;
+    }
+}
+
+
+header {
+    background-color: #445161;
+}
+
+header::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-h {
+    margin: 0;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.header-list {
+    margin: 0 0 10px;
+    padding: 0;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.header-list li {
+    list-style: none;
+    background: url(/Lesson2_homework/img/check_icon.png) no-repeat 0 8px;
+    padding-left: 32px;
+}
+
+.header-right {
+    float: right;
+    width: 469px;
+    height: 214px;
+    background-color: #ffffff;
+}
+
+
+.about-product {
+    background-color: #ffffff;
+    padding: 50px;
+}
+
+.about-product::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.about-product-text {
+    float: left;
+}
+
+.about-product h2 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    width: 254px;
+    height: 28px;
+    color: #445161;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.about-product p {
+    max-width: 500px;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.about-product-video {
+    float: right;
+    width: 430px;
+    height: 245px;
+    background-color: #445161;
+}
+
+
+.dignity-product {
+    background-color: #f5f5f5;
+}
+
+.dignity-product h2 {
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #445161;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.dignity-list {
+    padding: 0;
+}
+
+.dignity-list::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.dignity-list li {
+    float: left;
+    text-align: justify;
+    list-style: none;
+    background: url(/Lesson2_homework/img/2-layers.png) no-repeat 0 5px;
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+.screenshots {
+    background-color: #ffffff;
+    justify-content: space-around;
+}
+
+.screenshots article {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.screenshots h2 {
+    width: 100%;
+    text-align: center;
+    margin: 0 0 30px;
+    color: #445161;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.article-pic {
+    width: 200px;
+    height: 150px;
+    background-color: #445161;
+}
+
+.article-text {
+    max-width: 60%;
+    padding-left: 15px;
+    text-align: justify;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.article-text p {
+    margin: 0;
+}
+
+@media (max-width: 650px) {
+    .article-pic {
+        display: none;
+    }
+    .article-text {
+        max-width: 100%;
+    }
+}
+
+
+.reviews {
+    background-color: #f5f5f5;
+    min-height: 100%;
+}
+
+.reviews h2 {
+    width: 100%;
+    text-align: center;
+    margin: 0 0 30px;
+    color: #445161;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.comment-wrapper {
+    display: flex;
+    padding: 15px;
+}
+
+.avatar {
+    margin-right: 20px;
+    width: 75px;
+    height: 75px;
+}
+
+.comment {
+    position: relative;
+    padding: 15px;
+    background-color: #D4D4D4;
+}
+
+.comment::before {
+    position: absolute;
+    left: -10px;
+    top: 27px;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: #D4D4D4;
+    transform: rotate(45deg);
+}
+
+.comment-text {
+    text-align: justify;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.signature {
+    margin: 0;
+    color: #989898;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+
+.buy-it {
+    background-color: #ffffff;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.buy-it h2 {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    color: #445161;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.tariff {
+    max-width: 300px;
+    padding: 0;
+    margin: 30px 20px 0;
+    background-color: #445161;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.tariff h3 {
+    margin: 10px 0 10px;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.price-wrapper {
+    height: 70px;
+    background-color: #ffffff;
+    text-align: center;
+    border: 1px solid #445162;
+}
+
+.price {
+    margin: 21px 0 0;
+    color: #445162;
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.tariff-list {
+    list-style: none;
+    margin-left: 20px;
+    padding: 0;
+    text-align: left;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.tariff button {
+    width: 90%;
+    height: 40px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border-style: none;
+    color: #445161;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+
+.contacts {
+    justify-content: center;
+    background-color: #445161;
+}
+
+.contacts h2 {
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.name, .email {
+    max-width: 500px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border-style: none;
+    margin-bottom: 20px;
+}
+
+.name::placeholder, 
+.email::placeholder {
+    padding-left: 5px;
+    color: #445162;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.description::placeholder {
+    padding-left: 5px;
+    color: #445162;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.description {
+    max-width: 500px;
+    height: 170px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border-style: none;
+    margin-bottom: 20px;
+    resize: none;
+}
+
+.send {
+    margin: 0 auto;
+    display: block;
+    width: 140px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border-style: none;
+    text-transform: uppercase;
+    color: #445162;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.icons-wrapper {
+}
+
+.contact-icons {
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 750px) and (max-width:992px) {
+    .input-wrapper {
+        flex: 2;
+        max-width: 100%;
+    }
+    .icons-wrapper {
+        flex: 1;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 320px) and (max-width:750px) {
+    .name, .email {
+        max-width: 100%;
+    }
+    .description {
+        max-width: 100%;
+    }
+    .contacts {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .input-wrapper {
+        flex: 1;
+        max-width: 100%;
+    }
+    .icons-wrapper {
+        margin: 0 auto;
+        margin-top: 30px;
+        flex: 1;
+        max-width: 270px;
+    }
+}
+
+.contact-icons li {
+    list-style: none;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.contact-icons li:first-child {
+    background: url(/Lesson2_homework/img/skype_icon.png) no-repeat 0 0;
+    padding-left: 30px;
+}
+
+.contact-icons li:nth-child(2) {
+    background: url(/Lesson2_homework/img/icq_icon.png) no-repeat 0 2px;
+    padding-left: 30px;
+}
+
+.contact-icons li:nth-child(3) {
+    background: url(/Lesson2_homework/img/email_icon.png) no-repeat 2px 5px;
+    padding-left: 30px;
+}
+
+.contact-icons li:nth-child(4) {
+    background: url(/Lesson2_homework/img/phone_icon.png) no-repeat 1px 1px;
+    padding-left: 30px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.copyright {
+    height: 26px;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    background-color:  #f5f5f5;
+}
+
+.copyright p {
+    margin: 0;
+    padding: 7px;
+    text-align: center;
+    color: #445162;
+}
